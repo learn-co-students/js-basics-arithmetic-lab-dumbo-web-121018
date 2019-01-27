@@ -413,22 +413,22 @@ rely on the test failure messages to guide your code.
 
 ## Instructions
 
-- When we started out, we assigned ID numbers sequentially to new users, so our
+<!-- - When we started out, we assigned ID numbers sequentially to new users, so our
   first user's ID is `1`, second is `2`, third is `3`, and so on. That was fine
   when we were a fledgling company, but, now that we have millions of active
   users, it would be easier if all of our user IDs were the same length. We'd like
   the IDs to start from `1000000001` (one billion and one) instead of `1`. Create
   a variable named `newID` that adds `1000000000` to the value in `oldID`, which
-  you shouldn't define — it will be provided for you in the test suite.
+  you shouldn't define — it will be provided for you in the test suite. -->
 
-- During the sign-up process, we require new users to provide their age. However,
+<!-- - During the sign-up process, we require new users to provide their age. However,
   the junior developer tasked with creating the sign-up form forgot to validate
   that the user had entered an integer, so we have a lot of accounts floating
   around with weird ages like `21.7` or `9.5`. We'd like you to help us identify
   which users need to be prompted to reenter their age. Create a variable named
   `ageIsValid` that checks whether the value in `currentAge` is a valid integer.
   You don't have to declare `currentAge` — the test suite will take care of that
-  part.
+  part. -->
 
 - Finally, we need a way to randomly select a user by their ID number. As you
   know, we have millions of active users, but since this is your first assignment
